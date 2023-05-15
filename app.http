@@ -1,0 +1,17 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+
+###
+
+GET http://localhost:3000/states/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzdG9waGVyX3BoaWxsaXBzIiwiaWF0IjoxNjg0MTU0NzIwfQ.eDir-13xk7tK7qYR_Yn2ouVP99i294MAgCCoBZ51sm4
+###
+
+GET http://localhost:3000/states/1/
+Authorization: Bearer 
